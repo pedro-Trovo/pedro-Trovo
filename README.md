@@ -2,8 +2,8 @@
 
 🎓 Estudante de Análise e Desenvolvimento de Sistemas na FATEC Ipiranga 
 
----
-<h1>📫 Contato:</h1>
+
+## 📫 Contato
 
 <p align="left" style="display: flex; gap: 10px;">
   <a href = "mailto:pedroramostrovo@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
@@ -12,8 +12,7 @@
 
 
 
----
-<h1>🧠Conhecimentos</h1>
+## 🧠Conhecimentos
 
 <table>
   <tr>
@@ -105,3 +104,9 @@
 </table>
 
 ---
+
+<div>
+<a href="https://github.com/pedro-Trovo">
+<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedro-Trovo&layout=compact&langs_count=7&theme=dracula"/>
+<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=pedro-Trovo&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+</div>
