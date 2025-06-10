@@ -3,14 +3,14 @@
 🎓 Estudante de Análise e Desenvolvimento de Sistemas na FATEC Ipiranga 
 
 ---
-<h2> 🔗 📫 Contatos</h2>
+<h1>📫 Contatos</h1>
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="linkedin logo"/>
-  </a>
   <a href="mailto:pedroramostrovo@gmail.com" title="Enviar email">
     <img src="https://skillicons.dev/icons?i=gmail" height="45" alt="gmail logo"/>
+  </a>
+  <a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="linkedin logo"/>
   </a>
 </p>
 
@@ -35,7 +35,7 @@
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
-          <summary><h2>Frameworks</h2></summary>
+          <summary><h2>Frameworks / Libs</h2></summary>
         </ul>
       </div>
     </th>
@@ -75,7 +75,6 @@
     </th>
     <td align="left">
       <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" height="45" alt="mysql logo"/></a>
-      <img src="https://img.shields.io/badge/SQL-000000?style=flat-square&logo=sqlite&logoColor=white" height="27" alt="sql badge"/>
     </td>
   </tr>
 
@@ -92,13 +91,32 @@
       <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" height="45" alt="github logo"/></a>
       <a href="https://www.npmjs.com/"><img src="https://skillicons.dev/icons?i=npm" height="45" alt="npm logo"/></a>
       <a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" height="45" alt="postman logo"/></a>
-      <a href="https://staruml.io/">
-        <img src="https://img.shields.io/badge/StarUML-blue?style=flat-square&logo=uml&logoColor=white" height="27" alt="staruml badge"/>
-      </a>
       <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" height="45" alt="vscode logo"/></a>
-      <!-- Snake não existe no skillicons, pode usar este badge -->
-      <img src="https://img.shields.io/badge/Snake-6CC24A?style=flat-square&logo=python&logoColor=white" height="27" alt="snake badge"/>
+      <a href="https://staruml.io/">
+          <img src="https://staruml.io/image/staruml_logo.png" height="45" alt="staruml logo" style="vertical-align: middle;"/>
+      </a>
     </td>
+  </tr>
+    <tr>
+    <th>
+      <div id="toc">
+        <ul align="center" style="list-style: none">
+          <summary><h2>Metodologias</h2></summary>
+        </ul>
+      </div>
+    </th>
+ <td align="left" style="font-size: 1.2rem; font-weight: bold; vertical-align: middle;">
+  <a href="https://www.scrumstudy.com/certification/scrum-fundamentals-certified" 
+     target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+    <span style="display: inline-flex; align-items: center; gap: 8px;">
+      <img src="https://img.shields.io/badge/Scrum%20Fundamentals%20Certified-6DB33F?style=flat-square" 
+           height="27" alt="Scrum Badge" />
+           <img src="https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SFC.png" 
+           alt="SFC Logo" height="30" style="border-radius: 4px;" />
+    </span>
+  </a>
+</td>
+
   </tr>
 </table>
 
