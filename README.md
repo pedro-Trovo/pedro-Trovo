@@ -98,10 +98,8 @@
       <a href="https://www.scrumstudy.com/certification/scrum-fundamentals-certified" 
          target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
         <span style="display: inline-flex; align-items: center; gap: 8px;">
-          <img src="https://img.shields.io/badge/Scrum%20Fundamentals%20Certified-6DB33F?style=flat-square" 
-               height="27" alt="Scrum Badge" />
           <img src="https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SFC.png" 
-               alt="SFC Logo" height="30" style="border-radius: 4px;" />
+               alt="SFC Logo" height="70" style="border-radius: 4px;" />
         </span>
       </a>
     </td>
