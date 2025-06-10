@@ -15,7 +15,7 @@
 </p>
 
 ---
-<h1>🛠️ Tecnologias e Ferramentas</h1>
+<h1>🧠Conhecimentos</h1>
 
 <table>
   <tr>
