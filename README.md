@@ -1,17 +1,13 @@
-## 👋 Olá! Eu sou o Pedro
+# 👋 Olá! Eu sou o Pedro
 
 🎓 Estudante de Análise e Desenvolvimento de Sistemas na FATEC Ipiranga 
 
 ---
-<h1>📫 Contatos</h1>
+<h1>📫 Contato:</h1>
 
 <p align="left" style="display: flex; gap: 10px;">
-  <a href="mailto:pedroramostrovo@gmail.com" title="Enviar email" style="text-decoration: none;">
-    <img src="https://skillicons.dev/icons?i=gmail" height="45" alt="gmail logo"/>
-  </a>
-  <a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank" rel="noopener noreferrer" title="LinkedIn" style="text-decoration: none;">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="linkedin logo"/>
-  </a>
+  <a href = "mailto:pedroramostrovo@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 </p>
 
 
