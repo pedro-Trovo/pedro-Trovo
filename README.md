@@ -92,7 +92,7 @@
       </div>
     </th>
     <td align="left" style="font-size: 1.2rem; font-weight: bold; vertical-align: middle;">
-      <a href="https://www.scrumstudy.com/certification/scrum-fundamentals-certified" 
+      <a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=1054001" 
          target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
         <span style="display: inline-flex; align-items: center; gap: 8px;">
           <img src="https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SFC.png" 
