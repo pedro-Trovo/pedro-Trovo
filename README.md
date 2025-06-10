@@ -19,23 +19,10 @@
 
 <table>
   <tr>
-    <th width="200px">
-      <div id="toc">
-        <ul align="center" style="list-style: none">
-          <summary><h2>Build Tools</h2></summary>
-        </ul>
-      </div>
-    </th>
-    <td width="650px" align="left">
-      <a href="https://vitejs.dev/"><img src="https://skillicons.dev/icons?i=vite" height="45" alt="vite logo"/></a>
-    </td>
-  </tr>
-
-  <tr>
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
-          <summary><h2>Frameworks / Libs</h2></summary>
+          <summary><h2>Frameworks / Libraries / Build Tools</h2></summary>
         </ul>
       </div>
     </th>
@@ -45,6 +32,7 @@
       <a href="https://angular.io/"><img src="https://skillicons.dev/icons?i=angular" height="45" alt="angular logo"/></a>
       <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" height="45" alt="express logo"/></a>
       <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" height="45" alt="node logo"/></a>
+      <a href="https://vitejs.dev/"><img src="https://skillicons.dev/icons?i=vite" height="45" alt="vite logo"/></a>
     </td>
   </tr>
 
@@ -93,11 +81,12 @@
       <a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" height="45" alt="postman logo"/></a>
       <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" height="45" alt="vscode logo"/></a>
       <a href="https://staruml.io/">
-          <img src="https://staruml.io/image/staruml_logo.png" height="45" alt="staruml logo" style="vertical-align: middle;"/>
+        <img src="https://staruml.io/image/staruml_logo.png" height="45" alt="staruml logo" style="vertical-align: middle;"/>
       </a>
     </td>
   </tr>
-    <tr>
+
+  <tr>
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
@@ -105,18 +94,17 @@
         </ul>
       </div>
     </th>
- <td align="left" style="font-size: 1.2rem; font-weight: bold; vertical-align: middle;">
-  <a href="https://www.scrumstudy.com/certification/scrum-fundamentals-certified" 
-     target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-    <span style="display: inline-flex; align-items: center; gap: 8px;">
-      <img src="https://img.shields.io/badge/Scrum%20Fundamentals%20Certified-6DB33F?style=flat-square" 
-           height="27" alt="Scrum Badge" />
-           <img src="https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SFC.png" 
-           alt="SFC Logo" height="30" style="border-radius: 4px;" />
-    </span>
-  </a>
-</td>
-
+    <td align="left" style="font-size: 1.2rem; font-weight: bold; vertical-align: middle;">
+      <a href="https://www.scrumstudy.com/certification/scrum-fundamentals-certified" 
+         target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+        <span style="display: inline-flex; align-items: center; gap: 8px;">
+          <img src="https://img.shields.io/badge/Scrum%20Fundamentals%20Certified-6DB33F?style=flat-square" 
+               height="27" alt="Scrum Badge" />
+          <img src="https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SFC.png" 
+               alt="SFC Logo" height="30" style="border-radius: 4px;" />
+        </span>
+      </a>
+    </td>
   </tr>
 </table>
 
