@@ -3,7 +3,7 @@
 🎓 Estudante de Análise e Desenvolvimento de Sistemas na FATEC Ipiranga 
 
 ---
-<h2>Contatos</h2>
+<h2> 🔗 📫 Contatos</h2>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
