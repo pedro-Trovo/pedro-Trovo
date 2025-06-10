@@ -5,14 +5,16 @@
 ---
 <h1>📫 Contatos</h1>
 
-<p align="left">
-  <a href="mailto:pedroramostrovo@gmail.com" title="Enviar email">
+<p align="left" style="display: flex; gap: 10px;">
+  <a href="mailto:pedroramostrovo@gmail.com" title="Enviar email" style="text-decoration: none;">
     <img src="https://skillicons.dev/icons?i=gmail" height="45" alt="gmail logo"/>
   </a>
-  <a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+  <a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank" rel="noopener noreferrer" title="LinkedIn" style="text-decoration: none;">
     <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="linkedin logo"/>
   </a>
 </p>
+
+
 
 ---
 <h1>🧠Conhecimentos</h1>
@@ -28,10 +30,10 @@
     </th>
     <td align="left">
       <a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" height="45" alt="spring logo"/></a>
-      <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="45" alt="react logo"/></a>
       <a href="https://angular.io/"><img src="https://skillicons.dev/icons?i=angular" height="45" alt="angular logo"/></a>
+       <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" height="45" alt="node logo"/></a>
+      <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="45" alt="react logo"/></a>
       <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" height="45" alt="express logo"/></a>
-      <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" height="45" alt="node logo"/></a>
       <a href="https://vitejs.dev/"><img src="https://skillicons.dev/icons?i=vite" height="45" alt="vite logo"/></a>
     </td>
   </tr>
@@ -45,11 +47,11 @@
       </div>
     </th>
     <td align="left">
+      <a href="https://www.oracle.com/java/"><img src="https://skillicons.dev/icons?i=java" height="45" alt="java logo"/></a>
+      <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://skillicons.dev/icons?i=c" height="45" alt="c logo"/></a>
       <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" height="45" alt="python logo"/></a>
       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=javascript" height="45" alt="javascript logo"/></a>
       <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=typescript" height="45" alt="typescript logo"/></a>
-      <a href="https://www.oracle.com/java/"><img src="https://skillicons.dev/icons?i=java" height="45" alt="java logo"/></a>
-      <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://skillicons.dev/icons?i=c" height="45" alt="c logo"/></a>
     </td>
   </tr>
 
