@@ -1,6 +1,6 @@
 # Hello, World!
 
-👋 Olá, eu sou o Pedro
+👋 Olá, eu sou o Pedro /
 🎓 Estudante de Análise e Desenvolvimento de Sistemas na FATEC Ipiranga 
 
 
