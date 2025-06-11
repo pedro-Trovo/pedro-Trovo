@@ -43,7 +43,7 @@
       </div>
     </th>
     <td align="left">
-      <a href="https://www.oracle.com/java/"><img src="https://skillicons.dev/icons?i=java" height="45" alt="java logo"/></a>
+      <a href="https://www.oracle.com/java/"><img src="https://skillicons.dev/icons?i=java&theme=light" height="45" alt="java logo"/></a>
       <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://skillicons.dev/icons?i=c" height="45" alt="c logo"/></a>
       <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" height="45" alt="python logo"/></a>
       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=javascript" height="45" alt="javascript logo"/></a>
