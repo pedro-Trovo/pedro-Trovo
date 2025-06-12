@@ -60,7 +60,7 @@
       </div>
     </th>
     <td align="left">
-      <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" height="45" alt="mysql logo"/></a>
+      <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql&theme=light" height="45" alt="mysql logo"/></a>
     </td>
   </tr>
 
