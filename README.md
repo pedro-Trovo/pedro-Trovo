@@ -80,7 +80,7 @@
      <a href="https://insomnia.rest/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg" height="45" alt="insomnia logo"/></a>
       <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" height="45" alt="vscode logo"/></a>
       <a href="https://staruml.io/">
-        <img src="https://staruml.io/image/staruml_logo.png" height="45" alt="staruml logo" style="vertical-align: middle;"/>
+        <img src="https://staruml.io/images/logo.png" height="45" alt="staruml logo" style="vertical-align: middle;"/>
       </a>
     </td>
   </tr>
