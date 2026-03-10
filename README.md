@@ -111,7 +111,12 @@
 
 ---
 <div align="center">
-  <a href="https://github.com/pedro-Trovo">
-    <img src="github-metrics.svg" alt="GitHub Metrics" width="100%">
-  </a>
+  <!-- Top Languages -->
+  <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pedro-Trovo&theme=dracula" alt="Top Languages by Repo"/>
+  
+  <!-- GitHub Stats -->
+  <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pedro-Trovo&theme=dracula" alt="GitHub Stats"/>
+  
+  <!-- Profile Details (com gráfico de atividades) -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pedro-Trovo&theme=dracula" alt="Profile Details" width="100%"/>
 </div>
