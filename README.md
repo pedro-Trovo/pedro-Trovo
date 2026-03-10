@@ -111,5 +111,7 @@
 
 ---
 <div align="center">
-  <img src="github_stats.svg" alt="GitHub Stats Terminal Style" width="80%">
+  <a href="https://github.com/pedro-Trovo">
+    <img src="github-metrics.svg" alt="GitHub Metrics" width="100%">
+  </a>
 </div>
