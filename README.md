@@ -31,6 +31,8 @@
       <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="45" alt="react logo"/></a>
       <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" height="45" alt="express logo"/></a>
       <a href="https://vitejs.dev/"><img src="https://skillicons.dev/icons?i=vite" height="45" alt="vite logo"/></a>
+      <a href="https://www.electronjs.org/"><img src="https://skillicons.dev/icons?i=electron" height="45" alt="electron logo"/></a>
+      <a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" height="45" alt="flask logo"/></a>
     </td>
   </tr>
 
@@ -79,6 +81,7 @@
       <a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" height="45" alt="postman logo"/></a>
      <a href="https://insomnia.rest/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg" height="45" alt="insomnia logo"/></a>
       <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" height="45" alt="vscode logo"/></a>
+      <a href="https://www.jetbrains.com/pycharm/"><img src="https://skillicons.dev/icons?i=pycharm" height="45" alt="pycharm logo"/></a>
       <a href="https://staruml.io/">
         <img src="https://staruml.io/images/logo.png" height="45" alt="staruml logo" style="vertical-align: middle;"/>
       </a>
@@ -103,6 +106,7 @@
       </a>
     </td>
   </tr>
+</table>
 </table>
 
 ---
