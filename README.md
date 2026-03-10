@@ -1,6 +1,6 @@
 # Hello, World!
 
-👋 Olá, eu sou o Pedro \
+👋 Olá, eu sou o Pedro Trovo \
 🎓 Estudante de Análise e Desenvolvimento de Sistemas na FATEC Ipiranga 
 
 
@@ -106,9 +106,12 @@
 </table>
 
 ---
-<div>
-<a href="https://github.com/pedro-Trovo">
-<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedro-Trovo&layout=compact&langs_count=7&theme=dracula"/>
-<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=pedro-Trovo&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+<div align="center">
+  <a href="https://github.com/pedro-Trovo">
+    <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedro-Trovo&layout=compact&langs_count=7&theme=dracula" alt="Top Languages"/>
+  </a>
+  <a href="https://github.com/pedro-Trovo">
+    <img height="180px" src="https://github-readme-stats.vercel.app/api?username=pedro-Trovo&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  </a>
 </div>
 
