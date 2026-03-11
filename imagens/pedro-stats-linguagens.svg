@@ -99,13 +99,13 @@ div.ellipsis {
 
 <div>
 <span class="progress">
-{{ progress }}
+
 </span>
 </div>
 
 <ul>
 
-{{ lang_list }}
+
 
 </ul>
 
