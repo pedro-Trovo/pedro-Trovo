@@ -1,33 +1,82 @@
-# Hello, World!
+<!-- Header -->
+<div align="center">
+  
+  <!-- Section Title -->
+  <div id="toc">
+    <ul align="center" style="list-style: none">
+      <summary>
+        <h1>
+          👋 Hello, World! Sou o Pedro Trovo
+        </h1>
+      </summary>
+    </ul>
+  </div>
+  
+  <p align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=9745F5&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Java+%7C+Spring+%7C+Angular;React+%7C+TypeScript+%7C+Python;Sempre+aprendendo+novas+tecnologias" alt="Typing SVG" />
+  </p>
+  
+  <!-- Contato com skillicons -->
+  <p align="center">
+    <a href="mailto:pedroramostrovo@gmail.com">
+      <img src="https://skillicons.dev/icons?i=gmail" height="45" alt="gmail" />
+    </a>
+    <a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="linkedin" />
+    </a>
+    <a href="https://github.com/pedro-Trovo" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" height="45" alt="github" />
+    </a>
+  </p>
+</div>
 
-👋 Olá, eu sou o Pedro Trovo \
-🎓 Estudante de Análise e Desenvolvimento de Sistemas na FATEC Ipiranga 
+---
 
+<!-- Sobre Mim Section -->
+<div id="toc">
+  <ul align="center" style="list-style: none">
+    <summary>
+      <h1>
+        🧑‍💻 Sobre Mim
+      </h1>
+    </summary>
+  </ul>
+</div>
 
-## 📫 Contato
+```text
+🎓 Estudante de Análise e Desenvolvimento de Sistemas na FATEC Ipiranga
+📚 Atualmente aprofundando conhecimentos em Java com Spring Boot e Angular
+🔭 Buscando oportunidades como desenvolvedor Full Stack
+🌱 Sempre explorando novas tecnologias e boas práticas de desenvolvimento
+💡 Interesses: Backend, Frontend, Arquitetura de Software e Inovação
+```
 
-<p align="left" style="display: flex; gap: 10px;">
-  <a href = "mailto:pedroramostrovo@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
-</p>
-
-
-
-## 🧠Conhecimentos
+<!-- Technical Skills Section -->
+<div id="toc">
+  <ul align="center" style="list-style: none">
+    <summary>
+      <h1>
+          My Technical Skills
+      </h1>
+    </summary>
+  </ul>
+</div>
 
 <table>
   <tr>
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
-          <summary><h2>Frameworks / Libraries / Build Tools</h2></summary>
+          <summary>
+            <h2>Frameworks / Libraries / Build Tools</h2>
+          </summary>
         </ul>
       </div>
     </th>
     <td align="left">
       <a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" height="45" alt="spring logo"/></a>
       <a href="https://angular.io/"><img src="https://skillicons.dev/icons?i=angular" height="45" alt="angular logo"/></a>
-       <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" height="45" alt="node logo"/></a>
+      <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" height="45" alt="node logo"/></a>
       <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="45" alt="react logo"/></a>
       <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" height="45" alt="express logo"/></a>
       <a href="https://vitejs.dev/"><img src="https://skillicons.dev/icons?i=vite" height="45" alt="vite logo"/></a>
@@ -40,7 +89,9 @@
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
-          <summary><h2>Languages</h2></summary>
+          <summary>
+            <h2>Languages</h2>
+          </summary>
         </ul>
       </div>
     </th>
@@ -57,7 +108,9 @@
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
-          <summary><h2>Databases</h2></summary>
+          <summary>
+            <h2>Databases</h2>
+          </summary>
         </ul>
       </div>
     </th>
@@ -70,7 +123,9 @@
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
-          <summary><h2>Tools & Platforms</h2></summary>
+          <summary>
+            <h2>Tools & Platforms</h2>
+          </summary>
         </ul>
       </div>
     </th>
@@ -79,7 +134,7 @@
       <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" height="45" alt="github logo"/></a>
       <a href="https://www.npmjs.com/"><img src="https://skillicons.dev/icons?i=npm" height="45" alt="npm logo"/></a>
       <a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" height="45" alt="postman logo"/></a>
-     <a href="https://insomnia.rest/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg" height="45" alt="insomnia logo"/></a>
+      <a href="https://insomnia.rest/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/insomnia/insomnia-original.svg" height="45" alt="insomnia logo"/></a>
       <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" height="45" alt="vscode logo"/></a>
       <a href="https://www.jetbrains.com/pycharm/"><img src="https://skillicons.dev/icons?i=pycharm" height="45" alt="pycharm logo"/></a>
       <a href="https://staruml.io/">
@@ -92,7 +147,9 @@
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
-          <summary><h2>Metodologias</h2></summary>
+          <summary>
+            <h2>Metodologias</h2>
+          </summary>
         </ul>
       </div>
     </th>
@@ -107,10 +164,30 @@
     </td>
   </tr>
 </table>
-</table>
 
----
+<!-- GitHub Stats Section -->
+<div id="toc">
+  <ul align="center" style="list-style: none">
+    <summary>
+      <h1>
+        📊 GitHub Analytics
+      </h1>
+    </summary>
+  </ul>
+</div>
+
 <div align="center">
   <img src="./imagens/pedro-stats-linguagens.svg" width="49%" alt="Linguagens mais usadas" />
   <img src="./imagens/pedro-stats-geral.svg" width="49%" alt="Estatísticas gerais" />
 </div>
+
+<!-- Footer -->
+<div align="center">
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=pedro-Trovo&color=blueviolet&style=for-the-badge" alt="Profile views" />
+  </p>
+  <p>
+    <i>"Transformando linhas de código em soluções reais"</i>
+  </p>
+</div>
+
