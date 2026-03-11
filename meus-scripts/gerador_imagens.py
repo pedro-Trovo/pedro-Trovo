@@ -12,14 +12,19 @@ from coletor_dados import Estatisticas
 async def gerar_visao_geral(e: Estatisticas) -> None:
     with open("meus-modelos/modelo-geral.svg", "r") as f:
         saida = f.read()
-    saida = re.sub("{{ name }}", await e.obter_nome(), saida)  # Se tiver name
-    saida = re.sub("{{ stars }}", f"{await e.obter_estrelas():,}", saida)
-    saida = re.sub("{{ forks }}", f"{await e.obter_forks():,}", saida)
-    saida = re.sub("{{ contributions }}", f"{await e.obter_total_contribuicoes():,}", saida)
+    
+    # Substitui os placeholders do template geral
+    saida = re.sub(r"{{ name }}", await e.obter_nome(), saida)
+    saida = re.sub(r"{{ stars }}", f"{await e.obter_estrelas():,}", saida)
+    saida = re.sub(r"{{ forks }}", f"{await e.obter_forks():,}", saida)
+    saida = re.sub(r"{{ contributions }}", f"{await e.obter_total_contribuicoes():,}", saida)
+    
     alteradas = (await e.obter_linhas_alteradas())[0] + (await e.obter_linhas_alteradas())[1]
-    saida = re.sub("{{ lines_changed }}", f"{alteradas:,}", saida)
-    saida = re.sub("{{ views }}", f"{await e.obter_visualizacoes():,}", saida)
-    saida = re.sub("{{ repos }}", f"{len(await e.obter_todos_repos()):,}", saida)
+    saida = re.sub(r"{{ lines_changed }}", f"{alteradas:,}", saida)
+    
+    saida = re.sub(r"{{ views }}", f"{await e.obter_visualizacoes():,}", saida)
+    saida = re.sub(r"{{ repos }}", f"{len(await e.obter_todos_repos()):,}", saida)
+    
     if not os.path.isdir("imagens"):
         os.mkdir("imagens")
     with open("imagens/pedro-stats-geral.svg", "w") as f:
@@ -29,16 +34,22 @@ async def gerar_visao_geral(e: Estatisticas) -> None:
 async def gerar_linguagens(e: Estatisticas) -> None:
     with open("meus-modelos/modelo-linguagens.svg", "r") as f:
         saida = f.read()
+    
     progresso = ""
     lista_langs = ""
     langs_ordenadas = sorted((await e.obter_linguagens()).items(), reverse=True,
                               key=lambda t: t[1].get("tamanho"))
     atraso = 150
+    
     for i, (lang, dados) in enumerate(langs_ordenadas[:15]):
         cor = dados.get("cor", "#000000")
         perc = dados.get("percentual", 0)
+        
+        # Gera as barras de progresso coloridas
         if perc > 0:
             progresso += f'<span style="background-color: {cor}; width: {perc}%;" class="progress-item"></span>'
+        
+        # Gera a lista de linguagens
         lista_langs += f"""
 <li style="animation-delay: {i * atraso}ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:{cor};" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
@@ -46,8 +57,11 @@ async def gerar_linguagens(e: Estatisticas) -> None:
 <span class="percent">{perc:.2f}%</span>
 </li>
 """
-    saida = re.sub(r"{{ progresso }}", progresso, saida)
+    
+    # Substitui os placeholders do template de linguagens
+    saida = re.sub(r"{{ progress }}", progresso, saida)
     saida = re.sub(r"{{ lang_list }}", lista_langs, saida)
+    
     if not os.path.isdir("imagens"):
         os.mkdir("imagens")
     with open("imagens/pedro-stats-linguagens.svg", "w") as f:
