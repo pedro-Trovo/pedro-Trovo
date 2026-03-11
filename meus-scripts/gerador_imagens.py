@@ -12,14 +12,14 @@ from coletor_dados import Estatisticas
 async def gerar_visao_geral(e: Estatisticas) -> None:
     with open("meus-modelos/modelo-geral.svg", "r") as f:
         saida = f.read()
-    saida = re.sub("{{ nome }}", await e.obter_nome(), saida)
-    saida = re.sub("{{ estrelas }}", f"{await e.obter_estrelas():,}", saida)
+    saida = re.sub("{{ name }}", await e.obter_nome(), saida)  # Se tiver name
+    saida = re.sub("{{ stars }}", f"{await e.obter_estrelas():,}", saida)
     saida = re.sub("{{ forks }}", f"{await e.obter_forks():,}", saida)
-    saida = re.sub("{{ contribuicoes }}", f"{await e.obter_total_contribuicoes():,}", saida)
+    saida = re.sub("{{ contributions }}", f"{await e.obter_total_contribuicoes():,}", saida)
     alteradas = (await e.obter_linhas_alteradas())[0] + (await e.obter_linhas_alteradas())[1]
-    saida = re.sub("{{ linhas_alteradas }}", f"{alteradas:,}", saida)
-    saida = re.sub("{{ visualizacoes }}", f"{await e.obter_visualizacoes():,}", saida)
-    saida = re.sub("{{ repositorios }}", f"{len(await e.obter_todos_repos()):,}", saida)
+    saida = re.sub("{{ lines_changed }}", f"{alteradas:,}", saida)
+    saida = re.sub("{{ views }}", f"{await e.obter_visualizacoes():,}", saida)
+    saida = re.sub("{{ repos }}", f"{len(await e.obter_todos_repos()):,}", saida)
     if not os.path.isdir("imagens"):
         os.mkdir("imagens")
     with open("imagens/pedro-stats-geral.svg", "w") as f:
@@ -47,7 +47,7 @@ async def gerar_linguagens(e: Estatisticas) -> None:
 </li>
 """
     saida = re.sub(r"{{ progresso }}", progresso, saida)
-    saida = re.sub(r"{{ lista_langs }}", lista_langs, saida)
+    saida = re.sub(r"{{ lang_list }}", lista_langs, saida)
     if not os.path.isdir("imagens"):
         os.mkdir("imagens")
     with open("imagens/pedro-stats-linguagens.svg", "w") as f:
