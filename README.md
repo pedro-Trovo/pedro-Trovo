@@ -154,7 +154,7 @@
       <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" height="45" alt="git logo"/></a>
       <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" height="45" alt="github logo"/></a>
       <a href="https://www.npmjs.com/"><img src="https://skillicons.dev/icons?i=npm" height="45" alt="npm logo"/></a>
-      <a href="https://pypi.org/project/pip/"><img src="https://skillicons.dev/icons?i=py" height="45" alt="pip logo"/></a>
+      <a href="https://pypi.org/project/pip/"><img src="https://pypi.org/static/images/logo-small.8998e9d1.svg" height="45" alt="pip logo"/></a>
       <a href="https://vitejs.dev/"><img src="https://skillicons.dev/icons?i=vite" height="45" alt="vite logo"/></a>
       <a href="https://www.electronjs.org/"><img src="https://skillicons.dev/icons?i=electron" height="45" alt="electron logo"/></a>
     </td>
