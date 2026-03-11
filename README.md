@@ -181,13 +181,4 @@
   <img src="./imagens/pedro-stats-geral.svg" width="49%" alt="Estatísticas gerais" />
 </div>
 
-<!-- Footer -->
-<div align="center">
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=pedro-Trovo&color=blueviolet&style=for-the-badge" alt="Profile views" />
-  </p>
-  <p>
-    <i>"Transformando linhas de código em soluções reais"</i>
-  </p>
-</div>
 
