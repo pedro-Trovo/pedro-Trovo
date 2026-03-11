@@ -111,12 +111,12 @@
 
 ---
 <div align="center">
-  <!-- Top Languages -->
-  <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pedro-Trovo&theme=dracula" alt="Top Languages by Repo"/>
+  <!-- Stats em estilo terminal com TODAS as linguagens -->
+  <img src="metrics-terminal.svg" alt="Terminal Stats" width="100%">
   
-  <!-- GitHub Stats -->
-  <img height="180px" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pedro-Trovo&theme=dracula" alt="GitHub Stats"/>
-  
-  <!-- Profile Details (com gráfico de atividades) -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pedro-Trovo&theme=dracula" alt="Profile Details" width="100%"/>
+
+  <br>
+  <br>
+  <img src="https://img.shields.io/github/stars/pedro-Trovo?style=for-the-badge&color=blueviolet" alt="Total Stars">
+  <img src="https://img.shields.io/github/last-commit/pedro-Trovo/pedro-Trovo?style=for-the-badge&color=blueviolet" alt="Last Commit">
 </div>
