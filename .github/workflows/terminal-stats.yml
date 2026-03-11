@@ -1,0 +1,87 @@
+name: Generate Terminal Stats
+
+on:
+  # Roda a cada 6 horas (mais chances de sucesso)
+  schedule:
+    - cron: '0 */6 * * *'
+  
+  
+  push:
+    branches: [ "main" ]
+  
+ 
+  watch:
+    types: [started]
+  
+
+  workflow_dispatch:
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull_requests: write
+      repository-projects: read
+      metadata: read
+      actions: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate terminal metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-terminal.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: pedro-Trovo
+          
+          # Template terminal
+          template: terminal
+          
+          # Informações básicas
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          
+          # LINGUAGENS - TODAS
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage, lines
+          plugin_languages_limit: 0
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_ignored: none
+          plugin_languages_skipped: none
+          plugin_languages_threshold: 0%
+          
+          # STATS COMPLETOS
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          
+          plugin_habits: yes
+          plugin_habits_from: 1000
+          plugin_habits_days: 365
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          
+          plugin_contributors: yes
+          plugin_contributors_sections: contributors
+          
+          plugin_repositories: yes
+          plugin_repositories_featured: pedro-Trovo
+          
+          # Configurações
+          config_timezone: America/Sao_Paulo
+          config_order: base.header, base.activity, base.repositories, languages, habits, followup
+          
+      - name: Commit files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add metrics-terminal.svg
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update terminal metrics"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
