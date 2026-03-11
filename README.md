@@ -111,16 +111,6 @@
 
 ---
 <div align="center">
-  <!-- Stats em estilo terminal com TODAS as linguagens -->
-  <img src="metrics-terminal.svg" alt="Terminal Stats" width="100%">
-  
-  <br>
-  <br>
-  <div align="center">
-  <img src="https://img.shields.io/github/stars/pedro-Trovo?style=for-the-badge&color=blueviolet" alt="Total Stars">
-  <img src="https://img.shields.io/github/followers/pedro-Trovo?style=for-the-badge&color=blueviolet" alt="Followers">
-  <img src="https://img.shields.io/github/last-commit/pedro-Trovo/pedro-Trovo?style=for-the-badge&color=blueviolet" alt="Last Commit">
-  <img src="https://img.shields.io/github/commit-activity/m/pedro-Trovo/pedro-Trovo?style=for-the-badge&color=blueviolet" alt="Commit Activity">
-  <img src="https://img.shields.io/github/languages/count/pedro-Trovo/pedro-Trovo?style=for-the-badge&color=blueviolet" alt="Languages">
-  <img src="https://img.shields.io/github/languages/top/pedro-Trovo/pedro-Trovo?style=for-the-badge&color=blueviolet" alt="Top Language">
+  <img src="./imagens/pedro-stats-linguagens.svg" width="49%" alt="Linguagens mais usadas" />
+  <img src="./imagens/pedro-stats-geral.svg" width="49%" alt="Estatísticas gerais" />
 </div>
