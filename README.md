@@ -1,3 +1,55 @@
+<!-- Header -->
+<div align="center">
+  
+  <!-- Section Title -->
+  <div id="toc">
+    <ul align="center" style="list-style: none">
+      <summary>
+        <h1>
+          👋 Hello, World! Sou o Pedro Trovo
+        </h1>
+      </summary>
+    </ul>
+  </div>
+  
+  <p align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=9745F5&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Java+%7C+Spring+%7C+Angular;React+%7C+TypeScript+%7C+Python;Sempre+aprendendo+novas+tecnologias" alt="Typing SVG" />
+  </p>
+  
+  <!-- Contato com skillicons -->
+  <p align="center">
+    <a href="mailto:pedroramostrovo@gmail.com">
+      <img src="https://skillicons.dev/icons?i=gmail" height="45" alt="gmail" />
+    </a>
+    <a href="https://www.linkedin.com/in/pedro-trovo-88b616251/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="linkedin" />
+    </a>
+    <a href="https://github.com/pedro-Trovo" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" height="45" alt="github" />
+    </a>
+  </p>
+</div>
+
+---
+
+<!-- Sobre Mim Section -->
+<div id="toc">
+  <ul align="center" style="list-style: none">
+    <summary>
+      <h1>
+        🧑‍💻 Sobre Mim
+      </h1>
+    </summary>
+  </ul>
+</div>
+
+```text
+🎓 Estudante de Análise e Desenvolvimento de Sistemas na FATEC Ipiranga
+📚 Atualmente aprofundando conhecimentos em Java com Spring Boot e Angular
+🔭 Buscando oportunidades como desenvolvedor Full Stack
+🌱 Sempre explorando novas tecnologias e boas práticas de desenvolvimento
+💡 Interesses: Backend, Frontend, Arquitetura de Software e Inovação
+```
 <!-- Tech Stack Section -->
 <div id="toc">
   <ul align="center" style="list-style: none">
@@ -12,7 +64,7 @@
 <div align="center">
 
 <table>
-  <!-- LINGUAGENS (categoria principal) -->
+ 
   <tr>
     <th>
       <div id="toc">
@@ -148,7 +200,7 @@
       <div id="toc">
         <ul align="center" style="list-style: none">
           <summary>
-            <h2>📐 Modeling & Methodologies</h2>
+            <h2>📐 Software Engineering</h2>
           </summary>
         </ul>
       </div>
