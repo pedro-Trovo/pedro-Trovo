@@ -6,7 +6,7 @@ import re
 
 import aiohttp
 
-from meus_scripts.coletor_dados import Estatisticas
+from coletor_dados import Estatisticas
 
 
 async def gerar_visao_geral(e: Estatisticas) -> None:
