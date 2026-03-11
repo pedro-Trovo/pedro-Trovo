@@ -1,9 +1,19 @@
+#!/usr/bin/python3
+
+import asyncio
+import os
+import re
+
+import aiohttp
+
+from coletor_dados import Estatisticas  
+
+
 async def gerar_linguagens(e: Estatisticas) -> None:
     print("="*50)
     print("GERANDO LINGUAGENS")
     print("="*50)
     
-    # CARREGA OS DADOS PRIMEIRO
     linguagens = await e.obter_linguagens()
     
     print(f"Linguagens encontradas: {linguagens}")
@@ -42,7 +52,6 @@ async def gerar_linguagens(e: Estatisticas) -> None:
 """
     else:
         print("❌ NENHUMA LINGUAGEM ENCONTRADA!")
-        # Dados de exemplo para teste
         progresso = '<span style="background-color: #f1e05a; width: 100%;" class="progress-item"></span>'
         lista_langs = """
 <li style="animation-delay: 0ms;">
@@ -106,3 +115,19 @@ async def gerar_visao_geral(e: Estatisticas) -> None:
     
     print("✅ SVG geral salvo!")
     print("="*50)
+
+
+async def main() -> None:
+    token = os.getenv("ACCESS_TOKEN")
+    if not token:
+        token = os.getenv("GITHUB_TOKEN")
+        if not token:
+            raise Exception("Token de acesso necessário!")
+    usuario = os.getenv("GITHUB_ACTOR", "pedro-Trovo")
+    async with aiohttp.ClientSession() as sessao:
+        e = Estatisticas(usuario, token, sessao)
+        await asyncio.gather(gerar_linguagens(e), gerar_visao_geral(e))
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
