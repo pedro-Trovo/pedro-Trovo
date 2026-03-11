@@ -63,7 +63,7 @@ class ConsultasGitHub:
     login,
     name,
     repositories(
-        first: 100,
+        first: 20,
         orderBy: {{
             field: UPDATED_AT,
             direction: DESC
