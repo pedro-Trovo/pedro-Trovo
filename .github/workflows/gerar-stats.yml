@@ -1,0 +1,25 @@
+name: Gerar Stats GitHub
+
+on:
+  schedule:
+    - cron: "20 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - run: pip install aiohttp requests
+    - run: python meus-scripts/gerador_imagens.py
+      env:
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - run: |
+        git config --global user.name "pedro-Trovo"
+        git config --global user.email "trovopedro5@gmail.com"
+        git add imagens/
+        git commit -m 'Atualiza stats' || exit 0
+        git push
