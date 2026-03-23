@@ -157,6 +157,7 @@
       <a href="https://pypi.org/project/pip/"><img src="https://pypi.org/static/images/logo-small.8998e9d1.svg" height="45" alt="pip logo"/></a>
       <a href="https://vitejs.dev/"><img src="https://skillicons.dev/icons?i=vite" height="45" alt="vite logo"/></a>
       <a href="https://www.electronjs.org/"><img src="https://skillicons.dev/icons?i=electron" height="45" alt="electron logo"/></a>
+      <a href="https://cmake.org/"><img src="https://skillicons.dev/icons?i=cmake" height="45" alt="cmake logo"/></a>
     </td>
   </tr>
 
@@ -191,6 +192,8 @@
     <td align="center">
       <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" height="45" alt="vscode logo"/></a>
       <a href="https://www.jetbrains.com/pycharm/"><img src="https://skillicons.dev/icons?i=pycharm" height="45" alt="pycharm logo"/></a>
+      <a href="https://www.jetbrains.com/idea/"><img src="https://skillicons.dev/icons?i=idea" height="45" alt="intellij logo"/></a>
+      <a href="https://www.jetbrains.com/clion/"><img src="https://skillicons.dev/icons?i=clion" height="45" alt="clion logo"/></a>
     </td>
   </tr>
 
@@ -216,6 +219,7 @@
       </a>
     </td>
   </tr>
+
 </table>
 
 </div>
