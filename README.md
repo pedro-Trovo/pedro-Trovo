@@ -120,9 +120,20 @@
       </div>
     </th>
     <td align="center">
-      <a href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" height="45" alt="SFTP"/></a>
-      <a href="https://en.wikipedia.org/wiki/Secure_Shell"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" height="45" alt="SSH"/></a>
-      <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy"><img src="https://img.icons8.com/color/48/lock--v1.png" height="45" alt="PGP"/></a>
+      <a href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol">
+        <img src="https://img.icons8.com/color/48/000000/folder-invoices--v1.png" height="45" alt="SFTP"/>
+        <span style="font-size: 14px; margin-left: 5px;">SFTP</span>
+      </a>
+      <span style="margin: 0 15px;"></span>
+      <a href="https://en.wikipedia.org/wiki/Secure_Shell">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" height="45" alt="SSH"/>
+        <span style="font-size: 14px; margin-left: 5px;">SSH</span>
+      </a>
+      <span style="margin: 0 15px;"></span>
+      <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">
+        <img src="https://img.icons8.com/color/48/000000/encryption.png" height="45" alt="PGP"/>
+        <span style="font-size: 14px; margin-left: 5px;">PGP</span>
+      </a>
     </td>
   </tr>
 
@@ -140,6 +151,7 @@
     <td align="center">
       <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql&theme=light" height="45" alt="mysql logo"/></a>
       <a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" height="45" alt="mongodb logo"/></a>
+      <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" height="45" alt="postgresql logo"/></a>
     </td>
   </tr>
 
