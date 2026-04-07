@@ -50,6 +50,7 @@
 🌱 Sempre explorando novas tecnologias e boas práticas de desenvolvimento
 💡 Interesses: Backend, Frontend, Arquitetura de Software e Inovação
 ```
+
 <!-- Tech Stack Section -->
 <div id="toc">
   <ul align="center" style="list-style: none">
@@ -119,13 +120,9 @@
       </div>
     </th>
     <td align="center">
-      <a href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol"><img src="https://img.icons8.com/color/48/000/files.png" height="45" alt="SFTP logo"/></a>
-      <span style="font-size: 32px; margin: 0 5px;">🔐</span>
-      <a href="https://en.wikipedia.org/wiki/Secure_Shell"><span style="font-size: 32px;">🖥️</span></a>
-      <span style="font-size: 18px; font-weight: bold; margin: 0 5px;">SSH</span>
-      <span style="font-size: 32px; margin: 0 5px;">✉️</span>
-      <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy"><span style="font-size: 32px;">🔒</span></a>
-      <span style="font-size: 18px; font-weight: bold; margin: 0 5px;">PGP</span>
+      <a href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" height="45" alt="SFTP"/></a>
+      <a href="https://en.wikipedia.org/wiki/Secure_Shell"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" height="45" alt="SSH"/></a>
+      <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy"><img src="https://img.icons8.com/color/48/lock--v1.png" height="45" alt="PGP"/></a>
     </td>
   </tr>
 
@@ -142,6 +139,7 @@
     </th>
     <td align="center">
       <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql&theme=light" height="45" alt="mysql logo"/></a>
+      <a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" height="45" alt="mongodb logo"/></a>
     </td>
   </tr>
 
