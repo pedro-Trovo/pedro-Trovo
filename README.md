@@ -64,7 +64,7 @@
 <div align="center">
 
 <table>
- 
+  <!-- Programming Languages -->
   <tr>
     <th>
       <div id="toc">
@@ -84,13 +84,13 @@
     </td>
   </tr>
 
-  <!-- Frontend Frameworks -->
+  <!-- Frameworks & Libraries -->
   <tr>
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
           <summary>
-            <h2>🎨 Frontend</h2>
+            <h2>📚 Frameworks & Libraries</h2>
           </summary>
         </ul>
       </div>
@@ -100,25 +100,32 @@
       <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="45" alt="react logo"/></a>
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" height="45" alt="html logo"/></a>
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" height="45" alt="css logo"/></a>
+      <a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" height="45" alt="spring logo"/></a>
+      <a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" height="45" alt="flask logo"/></a>
+      <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" height="45" alt="node logo"/></a>
+      <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" height="45" alt="express logo"/></a>
     </td>
   </tr>
 
-  <!-- Backend Frameworks -->
+  <!-- Protocols -->
   <tr>
     <th>
       <div id="toc">
         <ul align="center" style="list-style: none">
           <summary>
-            <h2>⚙️ Backend</h2>
+            <h2>🔌 Protocols</h2>
           </summary>
         </ul>
       </div>
     </th>
     <td align="center">
-      <a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" height="45" alt="spring logo"/></a>
-      <a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" height="45" alt="flask logo"/></a>
-      <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" height="45" alt="node logo"/></a>
-      <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" height="45" alt="express logo"/></a>
+      <a href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol"><img src="https://img.icons8.com/color/48/000/files.png" height="45" alt="SFTP logo"/></a>
+      <span style="font-size: 32px; margin: 0 5px;">🔐</span>
+      <a href="https://en.wikipedia.org/wiki/Secure_Shell"><span style="font-size: 32px;">🖥️</span></a>
+      <span style="font-size: 18px; font-weight: bold; margin: 0 5px;">SSH</span>
+      <span style="font-size: 32px; margin: 0 5px;">✉️</span>
+      <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy"><span style="font-size: 32px;">🔒</span></a>
+      <span style="font-size: 18px; font-weight: bold; margin: 0 5px;">PGP</span>
     </td>
   </tr>
 
