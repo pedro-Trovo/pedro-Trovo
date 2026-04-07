@@ -119,20 +119,18 @@
         </ul>
       </div>
     </th>
-    <td align="center">
-      <a href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol">
-        <img src="https://img.icons8.com/color/48/000000/folder-invoices--v1.png" height="45" alt="SFTP"/>
-        <span style="font-size: 14px; margin-left: 5px;">SFTP</span>
+    <td align="center" style="color: inherit;">
+      <a href="https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol" style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; margin: 0 10px;">
+        <img src="https://img.icons8.com/color/48/000000/folder-invoices--v1.png" height="40" alt="SFTP" style="vertical-align: middle;"/>
+        <span style="font-size: 16px; margin-left: 8px;">SFTP</span>
       </a>
-      <span style="margin: 0 15px;"></span>
-      <a href="https://en.wikipedia.org/wiki/Secure_Shell">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" height="45" alt="SSH"/>
-        <span style="font-size: 14px; margin-left: 5px;">SSH</span>
+      <a href="https://en.wikipedia.org/wiki/Secure_Shell" style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; margin: 0 10px;">
+        <img src="https://img.icons8.com/color/48/000000/key.png" height="40" alt="SSH" style="vertical-align: middle;"/>
+        <span style="font-size: 16px; margin-left: 8px;">SSH</span>
       </a>
-      <span style="margin: 0 15px;"></span>
-      <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">
-        <img src="https://img.icons8.com/color/48/000000/encryption.png" height="45" alt="PGP"/>
-        <span style="font-size: 14px; margin-left: 5px;">PGP</span>
+      <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy" style="text-decoration: none; color: inherit; display: inline-flex; align-items: center; margin: 0 10px;">
+        <img src="https://img.icons8.com/color/48/000000/lock--v1.png" height="40" alt="PGP" style="vertical-align: middle;"/>
+        <span style="font-size: 16px; margin-left: 8px;">PGP</span>
       </a>
     </td>
   </tr>
@@ -240,7 +238,6 @@
 </table>
 
 </div>
-
 <!-- GitHub Stats Section -->
 <div id="toc">
   <ul align="center" style="list-style: none">
