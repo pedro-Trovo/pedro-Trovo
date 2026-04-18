@@ -99,7 +99,7 @@ div.ellipsis {
 
 <div>
 <span class="progress">
-<span style="background-color: #3178c6; width: 43.798718558227165%;" class="progress-item"></span><span style="background-color: #b07219; width: 28.44628045868916%;" class="progress-item"></span><span style="background-color: #f1e05a; width: 13.809048739104156%;" class="progress-item"></span><span style="background-color: #3572A5; width: 4.0091088684550815%;" class="progress-item"></span><span style="background-color: #663399; width: 3.69202537084101%;" class="progress-item"></span><span style="background-color: #555555; width: 2.954452536824026%;" class="progress-item"></span><span style="background-color: #e34c26; width: 2.7735443339530055%;" class="progress-item"></span><span style="background-color: #c6538c; width: 0.32051648823784595%;" class="progress-item"></span><span style="background-color: #384d54; width: 0.11193630033882578%;" class="progress-item"></span><span style="background-color: #DA3434; width: 0.08436834532972835%;" class="progress-item"></span>
+<span style="background-color: #3178c6; width: 44.126927039895165%;" class="progress-item"></span><span style="background-color: #b07219; width: 28.259600190572453%;" class="progress-item"></span><span style="background-color: #f1e05a; width: 13.718426103051742%;" class="progress-item"></span><span style="background-color: #3572A5; width: 3.982798872687475%;" class="progress-item"></span><span style="background-color: #663399; width: 3.708411748109519%;" class="progress-item"></span><span style="background-color: #555555; width: 2.9350637807962086%;" class="progress-item"></span><span style="background-color: #e34c26; width: 2.7553427978805534%;" class="progress-item"></span><span style="background-color: #c6538c; width: 0.31841308128989854%;" class="progress-item"></span><span style="background-color: #384d54; width: 0.11120171225833522%;" class="progress-item"></span><span style="background-color: #DA3434; width: 0.08381467345865229%;" class="progress-item"></span>
 </span>
 </div>
 
@@ -109,43 +109,43 @@ div.ellipsis {
 <li style="animation-delay: 0ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3178c6;" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">TypeScript</span>
-<span class="percent">43.80%</span>
+<span class="percent">44.13%</span>
 </li>
 
 <li style="animation-delay: 150ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#b07219;" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Java</span>
-<span class="percent">28.45%</span>
+<span class="percent">28.26%</span>
 </li>
 
 <li style="animation-delay: 300ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#f1e05a;" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">JavaScript</span>
-<span class="percent">13.81%</span>
+<span class="percent">13.72%</span>
 </li>
 
 <li style="animation-delay: 450ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3572A5;" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Python</span>
-<span class="percent">4.01%</span>
+<span class="percent">3.98%</span>
 </li>
 
 <li style="animation-delay: 600ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#663399;" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">CSS</span>
-<span class="percent">3.69%</span>
+<span class="percent">3.71%</span>
 </li>
 
 <li style="animation-delay: 750ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#555555;" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">C</span>
-<span class="percent">2.95%</span>
+<span class="percent">2.94%</span>
 </li>
 
 <li style="animation-delay: 900ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#e34c26;" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">HTML</span>
-<span class="percent">2.77%</span>
+<span class="percent">2.76%</span>
 </li>
 
 <li style="animation-delay: 1050ms;">
